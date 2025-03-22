@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-image: url('../images/background3.jpg'); /* Path to the image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the image */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Title */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+/* Button */
+.button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background: #005bb5;
+}
+
+/* Admin Program Grid */
+.admin-program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.admin-program-item {
+    background: linear-gradient(135deg, #eb7640, #c3ebf3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.admin-program-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.admin-program-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.admin-program-item p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.admin-program-item a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.admin-program-item a:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .admin-program-item h2 {
+        font-size: 1.2rem;
+    }
+
+    .admin-program-item p {
+        font-size: 1rem;
+    }
+}

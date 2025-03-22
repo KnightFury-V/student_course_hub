@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url('../images/background3.jpg'); /* Path to the image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the image */
+}
+
+/* Staff Login */
+.staff-login {
+    background:linear-gradient(135deg, #e64900, #00b4d8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.staff-login h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.staff-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-login label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.staff-login input[type="number"],
+.staff-login input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.staff-login input[type="submit"] {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.staff-login input[type="submit"]:hover {
+    background: #005bb5;
+}
+
+.staff-login p {
+    margin-top: 20px;
+}
+
+.staff-login a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.staff-login a:hover {
+    text-decoration: underline;
+}
