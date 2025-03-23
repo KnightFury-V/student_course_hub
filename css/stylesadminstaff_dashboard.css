@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-image: url('../images/background3.jpg'); /* Path to the image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the image */
+    margin: auto;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Title */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #005bb5;
+}
+.content {
+
+  background: linear-gradient(135deg, #eb7640, #c3ebf3);;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Links */
+a {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    background: #005bb5;
+}
+
+/* Notification Messages */
+p[style="color: red;"],
+p[style="color: green;"] {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+}

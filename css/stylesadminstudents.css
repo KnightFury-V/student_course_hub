@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/background3.jpg'); /* Path to the image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center center; /* Center the image */
+}
+
+/* Page Title */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0073e6;
+    background: linear-gradient(135deg, #eb7640, #c3ebf3);
+    border-radius: 6px;
+    
+    
+}
+
+/* Notification Messages */
+p[style="color: red;"],
+p[style="color: green;"] {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Admin Button */
+.admin-button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.admin-button:hover {
+    background: #005bb5;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #eb7640, #c3ebf3);
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #0073e6;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #f4f4f9;
+}
+
+table tr:hover {
+    background: #e0e0e0;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table th,
+    table td {
+        font-size: 0.9rem;
+    }
+}
