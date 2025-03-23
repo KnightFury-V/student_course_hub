@@ -36,9 +36,8 @@ Open your web browser and navigate to index.php to access the application.
 *  Provides overview of programs and modules they are leading and involved in.
   
  
-    * 
 * **Responsive Design:** Ensures the website looks and functions well on various devices.
 
-Security
-Basic input validation is implemented to ensure correct email format and required fields.
-htmlspecialchars() function anmd isSet with FILTER_SANITIZE_FULL_SPECIAL_CHARS is implemented to sanitize the user input to secure form Cross-site scripting vulnerability.
+**Security**
+* Basic input validation is implemented to ensure correct email format and required fields.
+* htmlspecialchars() function anmd isSet with FILTER_SANITIZE_FULL_SPECIAL_CHARS is implemented to sanitize the user input to secure form Cross-site scripting vulnerability.
