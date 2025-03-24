@@ -2,16 +2,16 @@
 **Setup Instructions**
 
 **Create the Database**
-Execute the SQL commands in the student_course_hub.sql file to create the database and tables.
+* Execute the SQL commands in the student_course_hub.sql file to create the database and tables.
 
 **Database Credentials**
-Update the database credentials in db_connect.php with your database username and password if changed.
+* Update the database credentials in db_connect.php with your database username and password if changed.
 
 **File Structure**
-Make sure all files are located in your web server's root directory (e.g., htdocs for XAMPP).
+* Make sure all files are located in your web server's root directory (e.g., htdocs for XAMPP).
 
 **Access the Application**
-Open your web browser and navigate to index.php to access the application.
+* Open your web browser and navigate to index.php to access the application.
 
 
 ## Features
@@ -31,12 +31,12 @@ Open your web browser and navigate to index.php to access the application.
     * View and manage interested student registration data.
     * Export the information of interested student
  
-
-* **STAFF PANEL**
-*  Provides overview of programs and modules they are leading and involved in.
+**STAFF PANEL**
+* Provides overview of programs and modules they are leading and involved in.
   
  
-* **Responsive Design:** Ensures the website looks and functions well on various devices.
+**Responsive Design:** 
+* Ensures the website looks and functions well on various devices.
 
 **Security**
 * Basic input validation is implemented to ensure correct email format and required fields.
