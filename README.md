@@ -1,3 +1,5 @@
+## Web_Project-GROUP 4
+
 ## Student Course Hub Web Application
 **Setup Instructions**
 
@@ -9,6 +11,8 @@
 
 **File Structure**
 * Make sure all files are located in your web server's root directory (e.g., htdocs for XAMPP).
+
+**Description of Files**
 
 **Access the Application**
 * Open your web browser and navigate to index.php to access the application.
