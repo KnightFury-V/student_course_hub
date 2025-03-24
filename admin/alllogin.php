@@ -9,9 +9,8 @@
 <body>
     <h1>Welcome to Student Course Hub Login Page</h1>
     <button onclick="window.location.href='login.php'">Admin Login</button>
-    <button onclick="window.location.href='staff_login.php'">Staff Login</button>
-
-    <a href="../index.php">Back to Homepage</a>
+    <button onclick="window.location.href='staff_login.php'">Staff Login</button> <br>
+    <button onclick="window.location.href='../index.php'">Back to Homepage</button>
 </body>
 </html>
 
