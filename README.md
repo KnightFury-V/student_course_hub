@@ -27,7 +27,7 @@
 
 
 **Access the Application**
-* Open your web browser and navigate to index.php to access the application.
+* Open your web browser and navigate to http://localhost/student_course_hub/index.php to access the application.
 
 
 ## Features
