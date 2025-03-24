@@ -1,4 +1,4 @@
-**Student Course Hub Web Application**
+##Student Course Hub Web Application**
 **Setup Instructions**
 
 **Create the Database**
