@@ -7,7 +7,7 @@
 * Execute the SQL commands in the student_course_hub.sql file to create the database and tables.
 
 **Database Credentials**
-* Update the database credentials in db_connect.php with your database username and password if changed.
+* Update the database credentials in db_connect.php with your database username and password if changed or required.
 
 **File Structure**
 * Make sure all files are located in your web server's root directory (e.g., htdocs for XAMPP).
