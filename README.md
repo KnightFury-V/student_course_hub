@@ -13,6 +13,18 @@
 * Make sure all files are located in your web server's root directory (e.g., htdocs for XAMPP).
 
 **Description of Files**
+* student_course_hub/index.php - Displays available programs and allows students to register or withdraw interest and entry for page to login admin and staff. It is homepage of the website.
+* student_course_hub/module.php - Displays details of a specific module and the programs it is involved in.
+* student_course_hub/program.php - Displays details of a specific program, including modules also the program in which modules are involved.
+* student_course_hub/register_interest.php -  Handles student registration of interest in a program.
+* student_course_hub/search.php -  Displays search results for programs.
+* student_course_hub/withdraw_interest.php -  Handles student withdrawal of interest in a program.
+* ./admin/ - This folder consist all the CRUD functionalities for modules and programs for admin, login pages with options for staff and admin, file that allows superusers to create admin user accounts, admin dashboard, file for admin to create staff user accounts, student.php file to view all the interested students, files for staff dashboard, logout also a landing page for admin(index.php), also file for exporting the interested student list.
+
+* ./css/- This folder consist all the css styling files for different pages
+* ./images/- This folder consist all the images for programs, modules and background.
+* ./includes/- This folder consist database connection file and file with some function which are required to fetch Staffname, Levelname, ProgramName and checking if the user is Super user or not.
+
 
 **Access the Application**
 * Open your web browser and navigate to index.php to access the application.
