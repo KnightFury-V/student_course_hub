@@ -2,7 +2,7 @@
 **Setup Instructions**
 
 **Create the Database**
-Execute the SQL commands in the localhost.sql file to create the database and tables.
+Execute the SQL commands in the student_course_hub.sql file to create the database and tables.
 
 **Database Credentials**
 Update the database credentials in db_connect.php with your database username and password if changed.
