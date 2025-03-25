@@ -20,7 +20,7 @@
 * student_course_hub/search.php -  Displays search results for programs.
 * student_course_hub/withdraw_interest.php -  Handles student withdrawal of interest in a program.
 * student_course_hub/student_course_hub.sql - File for creating database which include all the SQL queries for creating database and tables.
-* ./admin/ - This folder consist all the CRUD functionalities for modules and programs for admin, login pages with options for staff and admin, file that allows superusers to create admin user accounts, admin dashboard, file for admin to create staff user accounts, student.php file to view all the interested students, files for staff dashboard, logout also a landing page for admin(index.php), also file for exporting the interested student list.
+* ./admin/ - This folder consist all the CRUD functionalities for modules and programs for admin, login pages with options for staff and admin,file to change password for admin and staff,  file that allows superusers to create admin user accounts, admin dashboard, file for admin to create staff user accounts, student.php file to view all the interested students, files for staff dashboard, logout also a landing page for admin(index.php), also file for exporting the interested student list.
 
 * ./css/- This folder consist all the css styling files for different pages
 * ./images/- This folder consist all the images for programs, modules and background.
